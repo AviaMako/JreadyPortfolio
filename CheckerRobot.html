@@ -1,0 +1,279 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Elements Reference - Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">John Ready</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+                            <li class="active"><a href="index.html">Projects</a></li>
+                            <li><a href="generic.html">Backround</a></li>
+							<li><a href="elements.html">Contacts</a></li>
+							
+							
+						</ul>
+						<ul class="icons">
+
+							<li><a href="https://www.linkedin.com/in/john-ready-75ba3926b/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+                    <!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">Checkers Robot Arm<br />
+									</a></h2>
+									<p>Led the mechanical design of a Robotic Arm capable of playing checkers.<br />
+										Fully designed in SolidWorks with 4 degrees of freedom.<br />
+									Utilizes stepper and servo motors while incorporating gearboxes and belt systems to enhance torque.<br /></p>
+								</header>
+                                <!-- Wrapper for centering -->
+							<div style="text-align: center; margin-top: 2rem;">
+     <style>
+    .image-container {
+      position: relative;
+      width: 1000px;
+      max-width: 100%;
+      margin: auto;
+    }
+
+    .base-image {
+      position: relative;
+      width: 100%;
+      display: block;
+      z-index: 0;
+    }
+
+    .overlay-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      opacity: 0;
+      z-index: 1;
+      transition: opacity 0.6s ease-in-out;
+      pointer-events: none;
+    }
+
+    .hotspot {
+      position: absolute;
+      border: 2px solid transparent;
+      cursor: pointer;
+      z-index: 2;
+    }
+
+    .hotspot:hover {
+      border: 2px solid transparent;
+    }
+
+    .info-menu {
+      position: absolute;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      opacity: 0;
+      transition: opacity 0.5s;
+      z-index: 3;
+      pointer-events: none;
+    }
+
+    .info-menu.show {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+  .horizontal-images .menu-images {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.horizontal-images .menu-images img {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+  </style>
+
+  <div class="image-container">
+    <!-- Base Image -->
+    <img src="CheckersRobotPics/ArmBlenderRender4.png" alt="Base Image" class="base-image">
+
+    <!-- Overlay Images -->
+    <img src="CheckersRobotPics/ArmBlenderRender2gripper.jpg" class="overlay-image" id="overlay1">
+    <img src="CheckersRobotPics/ArmBlenderRender2segment.jpg" class="overlay-image" id="overlay2">
+    <img src="CheckersRobotPics/ArmBlenderRender2shoulder.jpg" class="overlay-image" id="overlay3">
+    <img src="CheckersRobotPics/ArmBlenderRender2base.jpg" class="overlay-image" id="overlay4">
+
+    <!-- Hotspot 1 -->
+    <div class="hotspot"
+         style="top: 38%; left: 16%; width: 300px; height: 270px;"
+         data-overlay="overlay1"
+         data-menu="menu1">
+    </div>
+
+    <!-- Hotspot 2 -->
+    <div class="hotspot"
+         style="top: 23%; left: 47%; width: 525px; height: 200px; transform: rotate(65deg);"
+         
+         data-overlay="overlay2"
+         data-menu="menu2">
+    </div> <!-- Another Box to Cover Arm Segment -->
+    <div class="hotspot"
+         style="top: 5%; left: 10%; width: 600px; height: 150px; transform: rotate(-15deg);"
+         data-overlay="overlay2"
+         data-menu="menu2">
+    </div>
+    <div class="hotspot"
+         style="top: 10%; left: 16%; width: 300px; height: 270px;"
+         data-overlay="overlay2"
+         data-menu="menu2">
+    </div>
+
+    <!-- Hotspot 3 -->
+    <div class="hotspot"
+         style="top: 55%; left: 60%; width: 200px; height: 100px;"
+         data-overlay="overlay3"
+         data-menu="menu3">
+    </div> <!-- Another Box to Cover the Shoulder -->
+    <div class="hotspot"
+         style="top: 42%; left: 60%; width: 80px; height: 200px;"
+         data-overlay="overlay3"
+         data-menu="menu3">
+    </div>
+
+     <!-- Hotspot 4 -->
+    <div class="hotspot"
+         style="top: 65%; left: 50%; width: 400px; height: 260px;"
+         data-overlay="overlay4"
+         data-menu="menu4">
+    </div>
+
+
+    <!-- Info Menu 1 -->
+    <div class="info-menu" id="menu1"
+         style="top: 0%; left: 60%; width: 400px;">
+      <h3>Gripper</h3>
+      <p>The gripper incorporates three prongs each with their own gearing connected to a central SG90 servo.</p>
+      <img src="CheckersRobotPics/GripperExploded.png" alt="Gripper" style="width: 100%; margin-top: 10px;">
+      <img src="CheckersRobotPics/GripperGearing.png" alt="Gripper" style="width: 100%; margin-top: 10px;">
+    </div>
+
+    <!-- Info Menu 2 -->
+    <div class="info-menu horizontal-images" id="menu2"
+         style="top: 60%; left: 0%; width: 900px;">
+      <h3>Arm Segment</h3>
+      <p>Elbow joint utilizes a 40:1 gearbox (same as the shoulder). The wrist joint free rotates with gravity so save on weight and reduce complexity of the homing system.</p>
+      <div class="menu-images">
+      <img src="CheckersRobotPics/ElbowExploded.png" alt="Elbow Joint" style="width: 30%; margin-top: 10px;">
+      <img src="CheckersRobotPics/ArmSegmentDrawing.png" alt="Elbow Joint" style="width: 30%; margin-top: 10px;">
+      <img src="CheckersRobotPics/WristDrawing.png" alt="Elbow Joint" style="width: 30%; margin-top: 10px;">
+      </div>
+    </div>
+
+    <!-- Info Menu 3 -->
+    <div class="info-menu" id="menu3"
+         style="top: 10%; left: 0%; width: 400px;">
+      <h3>Shoulder Joint</h3>
+      <p>Utilizes a gearbox with a 40:1 transmission ratio (same as the elbow joint).</p>
+      <img src="CheckersRobotPics/ShoulderDrawing.png" alt="Shoulder Joint" style="width: 100%; margin-top: 10px;">
+      <img src="CheckersRobotPics/GearboxCasing.png" alt="GearboxCasing" style="width: 100%; margin-top: 10px;">
+    </div>
+
+    <!-- Info Menu 4 -->
+    <div class="info-menu" id="menu4"
+         style="top: 5%; left: 0%; width: 400px;">
+      <h3>Base</h3>
+      <p>Incorporates a belt system with a 3:1 transmission ratio. A very large bearing (probably belongs in a car) sits on the bottom of the shaft which rotates the arm.</p>
+      <img src="CheckersRobotPics/BaseExploded.png" alt="Base" style="width: 100%; margin-top: 10px;">
+      <img src="CheckersRobotPics/BaseDrawing.png" alt="Base" style="width: 100%; margin-top: 10px;">
+    </div>
+  </div>
+
+  <script>
+    const hotspots = document.querySelectorAll('.hotspot');
+    const overlays = document.querySelectorAll('.overlay-image');
+    const menus = document.querySelectorAll('.info-menu');
+
+    hotspots.forEach(hotspot => {
+      const overlay = document.getElementById(hotspot.dataset.overlay);
+      const menu = document.getElementById(hotspot.dataset.menu);
+
+      hotspot.addEventListener('mouseenter', () => {
+        overlays.forEach(o => o.style.opacity = 0);
+        menus.forEach(m => m.classList.remove('show'));
+
+        overlay.style.opacity = 1;
+        menu.classList.add('show');
+      });
+
+      hotspot.addEventListener('mouseleave', () => {
+        overlay.style.opacity = 0;
+        menu.classList.remove('show');
+      });
+    });
+  </script>
+</article>
+ 
+<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									
+									<h1>Design Evolution
+                
+									</h1>
+									<p> Preliminary Design</p>
+								</header>
+								<div class="image main"><img src="CheckersRobotPics/Preliminary2.png" alt="" /></div>
+	              
+								<p> This preliminary design was drafted in Solidworks. Its main purpose was to get us a rough idea of the size and functionality of the arms components. By creating a checkers board within Solidworks I was able to correctly scale the arm to accomidate. At this stage the concept for the gripper design was still being decided upon. </p>
+							</section>
+
+					</div>
+
+<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
